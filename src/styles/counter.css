@@ -1,0 +1,36 @@
+.counter-box{
+    display: flex;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.counter-box button{
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.counter-box .value-box{
+    flex: 1;
+    background: dark;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.counter-box.sm{
+    height: 25px;
+    width: 110px;
+}
+
+.counter-box.sm .value-box{
+    font-size: 14px;
+}
+
+.counter-box.sm button span{
+    font-size: 15px;
+}

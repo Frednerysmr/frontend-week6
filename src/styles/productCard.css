@@ -1,0 +1,23 @@
+.product-card{
+    cursor: pointer;
+    height: 100%;
+}
+
+.product-card .product-image{
+    padding: 20px;
+    background: #fff;
+    height: 300px;
+    object-fit: contain;
+}
+
+.product-card .product-title{
+    min-height: 50px;
+}
+
+.product-card .brand{
+    font-weight: 700;
+}
+
+.product-card button{
+    padding-top: 12px
+}
